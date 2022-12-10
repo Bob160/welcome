@@ -11,7 +11,7 @@ public class CicdApplication {
 
 @GetMapping("/welcome")
     public String welcome() {
-        return "This is my welcome!";
+        return "This is my welcome and what do you think about it?";
 
         //echo "# welcome" >> README.md
     //git init
